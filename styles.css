@@ -14,7 +14,7 @@ h1{
 }
 .box{
   position:absolute;
-  top:14%;
+  top:10%;
   left:20%;
   transform: translate(-50%, -50%);
   border-style: solid;
