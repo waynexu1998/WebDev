@@ -7,18 +7,18 @@ h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
       "Lucida Grande";
     font-weight: lighter;
-    border-style: solid;
-    border-width: 1px;
-    padding: 20px;
-    width: 450px;
-  }
+    padding:4px;5  }
 .overlay{
   position: relative;
   text-align: center;
 }
-.text{
+.box{
   position:absolute;
-  top:50%;
-  left:50%;
+  top:14%;
+  left:20%;
   transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 1px;
+  width: 34vw;
+  height:auto;
 }
