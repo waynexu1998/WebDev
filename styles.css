@@ -1,25 +1,39 @@
-body{
-    background-color:#e0e0eb;
+
+body, .box{
+  display:flex;
+  overflow:auto;
+  justify-content: center;
+
   }
 
 h1{
-    color: #e0e0eb;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
-      "Lucida Grande";
-    font-weight: lighter;
+    top:50%;
+    color: #47476b;
+    font-family: Raleway, sans-serif;
+    font-weight: 200px;
     padding:1px;
   }
-.overlay{
+
+  .overlay{
   position: relative;
   text-align: center;
 }
-.box{
-  position:absolute;
-  top:10%;
-  left:20%;
-  transform: translate(-50%, -50%);
-  border-style: solid;
-  border-width: 0.5px;
-  width: 32vw;
-  height:auto;
+
+  .box{
+    position:absolute;
+    top:6%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    color: #47476b;
+    border-width: 0.1vw;
+    width: 32vw;
+    height:auto;
+  }
+
+.picture{
+  top:13%;
+  position:relative;
+  max-width: 100%;
+  height: auto;
 }
