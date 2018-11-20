@@ -1,39 +1,41 @@
+body, html {
+    height: 100%;
+    margin:0;
+}
 
-body, .box{
-  display:flex;
-  overflow:auto;
-  justify-content: center;
+.parallax{
+  background-image:url('images/IMG_0257.JPG');
+  height: 86%;
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
-  }
+#block{
+  position:inherit;
+  background-color:rgba(0,0,0,0.25);]
+}
+
+button{
+  font-family: Raleway, sans-serif;
+  font-size: 1.5vw;
+  color:white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
 
 h1{
-    top:50%;
-    color: #47476b;
+   left:10%;
+    position:relative;
+    color: white;
+    opacity: 0.6;
     font-family: Raleway, sans-serif;
-    font-weight: 200px;
-    padding:1px;
+    font-weight: 200;
+    font-size: 3vw;
+    padding: 10px;
+    margin: 0;
   }
-
-  .overlay{
-  position: relative;
-  text-align: center;
-}
-
-  .box{
-    position:absolute;
-    top:6%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    border-style: solid;
-    color: #47476b;
-    border-width: 0.1vw;
-    width: 32vw;
-    height:auto;
-  }
-
-.picture{
-  top:13%;
-  position:relative;
-  max-width: 100%;
-  height: auto;
-}
